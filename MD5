@@ -1,11 +1,11 @@
-1a607604d843927d14dd5dd269b4c98b *DESCRIPTION
+3ecd77db704a1082cccc8051d30db7c4 *DESCRIPTION
 ad21def64ae29650fd0faff7823c77d2 *NAMESPACE
 5976401db17a5e753468a793679ebfa2 *R/showGuide.R
 1dd105729b330c1d2fcb974035584f21 *inst/R28/JRIEngine.jar
 8547a8d977d7e03e9a9914c0a5dede7f *inst/R28/REngine.jar
-643e37eb5e1f2daf4cd83c6d2d2c1e94 *inst/doc/CommonJavaJars.Rnw
-5dbd6ffbc0e04fccddbee73f64a0fa67 *inst/doc/CommonJavaJars.pdf
-1bb7db473465790415b70820115a0bd7 *inst/java/afcommons.jar
+54591edb25c22702a7b57e36ce26a319 *inst/doc/CommonJavaJars.Rnw
+001c472cd3ff4226d26965ef0991a694 *inst/doc/CommonJavaJars.pdf
+0aae4f0e48c0c716e8c1f5110b6b4139 *inst/java/afcommons.jar
 13bc641afd7fd95e09b260f69c1e4c91 *inst/java/commons-collections-3.2.1.jar
 4d5c1693079575b362edf41500630bbd *inst/java/commons-lang-2.6.jar
 e2c390fe739b2550a218262b28f290ce *inst/java/commons-logging-1.1.1.jar
@@ -20,5 +20,5 @@ e2c390fe739b2550a218262b28f290ce *inst/java/commons-logging-1.1.1.jar
 5db71be9cfde87a6e92c98a92d233b72 *inst/java/mysql-connector-java-5.1.16-bin.jar
 c6466994e25ed1246a7d541d485aee67 *inst/java/poi-3.6-20091214.jar
 ec6af52f8913ea26565ec707f371fb01 *inst/java/swing-worker-1.1.jar
-00e599e390f7a166dd5cf9adf57f590f *man/CommonJavaJars-package.Rd
+b92ce6ec091cdfdf370c1c257fc6a2b5 *man/CommonJavaJars-package.Rd
 a118a147656f1ff749f322083ec1e51b *man/showGuide.Rd
