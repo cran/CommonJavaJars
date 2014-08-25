@@ -27,7 +27,7 @@ options(digits=4)
 
 
 ###################################################
-### code chunk number 4: CommonJavaJars.Rnw:95-107 (eval = FALSE)
+### code chunk number 4: CommonJavaJars.Rnw:90-102 (eval = FALSE)
 ###################################################
 ## # The following few lines are based on the code of the rJava .jpackage function
 ## if (!is.null(sessionInfo()$otherPkgs$rJava$Version) && sessionInfo()$otherPkgs$rJava$Version < "0.8-3") {
