@@ -1,25 +1,20 @@
 \documentclass[a4paper, 10pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage{url}
-\usepackage{Sweave}
+
 \usepackage{graphicx}
-\usepackage{tikz}
-\usetikzlibrary{snakes,arrows,shapes}
 \usepackage[margin=0.9in]{geometry}
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{xspace}
-\usepackage[numbers]{natbib}
-%\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{amsmath,amsthm,amsfonts,amssymb}
-\bibliographystyle{plainnat}
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{1mm}
 \newcommand{\commentout}[1]{}
 
 \begin{document}
 
+% \VignetteEngine{knitr::knitr}
 % \VignetteIndexEntry{A package with useful libraries for Java GUIs}
 
 \title{CommonJavaJars - A package with useful libraries for Java GUIs} 
@@ -28,7 +23,7 @@
 
 %\maketitle
 
-<<echo=FALSE,results=hide>>=
+<<echo=FALSE,results='hide'>>=
 
 options(width=140)
 options(prompt=" ", continue=" ")
@@ -71,9 +66,9 @@ We provide the following Java libraries:
  \item Apache Commons IO under the Apache License, Version 2.2 (last compatible with JDK 1.5), 2004, \url{http://commons.apache.org/io/}, Copyright 2002-2012 The Apache Software Foundation
  \item JLaTeXMath under GPL >= 2.0, \url{http://forge.scilab.org/index.php/p/jlatexmath/}, Copyright 2004-2007, 2009 Calixte, Coolsaet, Cleemput, Vermeulen and Universiteit Gent
  \item iText 2.1.4 under LGPL, \url{http://itextpdf.com/}, Copyright by Bruno Lowagie 
- \item SwingWorker under LGPL, \url{https://swingworker.dev.java.net/}, Copyright (c) 2005 Sun Microsystems 
- \item JXLayer under BSD License, \url{https://jxlayer.dev.java.net/}, Copyright 2006-2009, Alexander Potochkin 
- \item JGoodies Forms and Commons under BSD License, \url{http://www.jgoodies.com/freeware/forms/}, Copyright JGoodies Karsten Lentzsch  
+ \item SwingWorker under LGPL, \url{https://java.net/projects/swingworker/}, Copyright (c) 2005 Sun Microsystems 
+ \item JXLayer under BSD License, \url{https://java.net/projects/jxlayer/}, Copyright 2006-2009, Alexander Potochkin 
+ \item JGoodies Forms and Commons under BSD License, \url{http://www.jgoodies.com/freeware/libraries/forms/}, Copyright JGoodies Karsten Lentzsch  
  \item JSON Processing dual licensed under CDDL 1.1 and GPL 2 with Classpath Exception, \url{https://jsonp.java.net/}, Copyright (c) 2011-2013 Oracle
  \item AFCommons under the LGPL >= 2.1, \url{https://github.com/kornl/afcommons/}, Copyright (c) 2007-2014 by Kornelius Rohmeyer, Bernd Bischl, Santhosh Kumar T (ComponentTitledBorder class), Jerry Huxtable (filter code), Sebastian Haufe (JListDnD class), Romain Guy (Star class), Oracle (CloseTabPanel)
  \item JHLIR under BSD License, \url{http://jhlir.r-forge.r-project.org/}, Copyright (c) 2008-2010 by Bernd Bischl and Kornelius Rohmeyer  
@@ -87,7 +82,7 @@ package if the rJava version is less than 0.8-3.
 Otherwise the package rJava provides these jar files.
 
 \scriptsize
-<<echo=TRUE,eval=FALSE>>=	
+<<echo=TRUE,eval=FALSE>>=
 # The following few lines are based on the code of the rJava .jpackage function
 if (!is.null(sessionInfo()$otherPkgs$rJava$Version) && sessionInfo()$otherPkgs$rJava$Version < "0.8-3") {
 	classes <- system.file("R28", package = "CommonJavaJars", lib.loc = NULL)
